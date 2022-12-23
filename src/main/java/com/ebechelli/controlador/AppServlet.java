@@ -19,6 +19,7 @@ import java.io.IOException;
  * GitHub: https://github.com/CharlyCimino
  */
 @WebServlet(name = "AppServlet", urlPatterns = {"/app"})
+
 public class AppServlet extends HttpServlet {
     
     private Modelo model;
@@ -26,6 +27,7 @@ public class AppServlet extends HttpServlet {
     private static final String URI_REMOVE = "WEB-INF/pages/alumnos/borrarAlumno.jsp";
     private static final String URI_SHOW = "WEB-INF/pages/alumnos/verAlumno.jsp";
     private static final String URI_EDIT = "WEB-INF/pages/alumnos/editarAlumno.jsp";
+ 
     
 
     @Override

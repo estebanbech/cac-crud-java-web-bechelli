@@ -11,7 +11,7 @@
                     <a class="nav-link" aria-current="page" href="${pageContext.request.contextPath}/">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="${pageContext.request.contextPath}/consigna">Consigna</a>
+                    <a class="nav-link" aria-current="page" href="consigna.jsp">Consigna</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="${pageContext.request.contextPath}/app">App</a>
