@@ -11,7 +11,7 @@
             <p class="lead">
                 Diseñar una vista de detalle para la persona que acabas de elegir, que permita ver TODOS sus datos guardados en la BD (mail, fecha de nacimiento, edad, etc). Además, debe tener los botones para editar o borrar también desde esta vista.
             </p>
-            <a class="btn btn-warning" href="${pageContext.request.contextPath}/app">Volver</a>
+            <a class="btn btn-warning" href="index.jsp">Volver</a>
         </div>
     </div>
 </section>
