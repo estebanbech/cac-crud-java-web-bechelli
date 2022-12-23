@@ -48,6 +48,7 @@
                     <div class="col-12">
                         <div class="float-end">
                             <a href="${pageContext.request.contextPath}/app?accion=edit&id=${alumnoShow.id}" class="btn bg-warning">Editar Alumno</a>
+                            <a href="${pageContext.request.contextPath}/app?accion=remove&id=${alumnoShow.id}" class="btn bg-danger text-light">Borrar Alumno</a>                            
                             <a href="${pageContext.request.contextPath}/app" class="btn btn-secondary">Listado Alumnos</a>
                         </div>
                     </div>
